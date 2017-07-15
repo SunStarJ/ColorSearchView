@@ -60,9 +60,9 @@ public class ColorSearchView extends View {
     protected void onDraw(Canvas canvas) {
         searchPaint.setStrokeWidth(searchPaintSize);
         if (getWidth() / 2 > getHeight() / 2) {
-            backRadius = getHeight() / 2;
-        } else {
             backRadius = getWidth() / 2;
+        } else {
+            backRadius = getHeight() / 2;
         }
         canvas.drawCircle(getWidth() / 2, getHeight() / 2, backRadius, backGroundPaind);
         canvas.drawCircle(centerX, centerY, radiusSize / 3, searchPaint);
