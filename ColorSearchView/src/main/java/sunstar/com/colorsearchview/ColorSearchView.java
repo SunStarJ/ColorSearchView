@@ -94,9 +94,9 @@ public class ColorSearchView extends View {
         Log.d("SearchView", "width:" + width);
         Log.d("SearchView", "height:" + height);
         if (width / 2 > height / 2) {
-            radiusSize = height / 2;
-        } else {
             radiusSize = width / 2;
+        } else {
+            radiusSize = height / 2;
         }
         searchPaintSize = width/20;
         setMeasuredDimension(width,height);
