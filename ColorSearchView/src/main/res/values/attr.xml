@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorSearchView">
+        <attr name="bg_color" format="color"/>
+        <attr name="searchview_color" format="color"/>
+        <attr name="change_color_frist" format="color"/>
+        <attr name="change_color_second" format="color"/>
+        <attr name="change_color_third" format="color"/>
+    </declare-styleable>
+</resources>
